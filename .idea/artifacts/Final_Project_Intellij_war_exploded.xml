@@ -1,0 +1,69 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Final_Project_Intellij:war exploded">
+    <output-path>$PROJECT_DIR$/target/Final_Project_Intellij-1.0-SNAPSHOT</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>Final_Project_Intellij</module>
+        <packaging>war</packaging>
+        <unpackNestedArchives>false</unpackNestedArchives>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Final_Project_Intellij" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: jstl:jstl:1.2" />
+          <element id="library" level="project" name="Maven: org.postgresql:postgresql:42.2.23" />
+          <element id="library" level="project" name="Maven: org.checkerframework:checker-qual:3.5.0" />
+          <element id="library" level="project" name="Maven: org.hibernate:hibernate-core:5.5.3.Final" />
+          <element id="library" level="project" name="Maven: org.jboss.logging:jboss-logging:3.4.2.Final" />
+          <element id="library" level="project" name="Maven: javax.persistence:javax.persistence-api:2.2" />
+          <element id="library" level="project" name="Maven: org.javassist:javassist:3.27.0-GA" />
+          <element id="library" level="project" name="Maven: net.bytebuddy:byte-buddy:1.10.22" />
+          <element id="library" level="project" name="Maven: antlr:antlr:2.7.7" />
+          <element id="library" level="project" name="Maven: org.jboss.spec.javax.transaction:jboss-transaction-api_1.2_spec:1.1.1.Final" />
+          <element id="library" level="project" name="Maven: org.jboss:jandex:2.2.3.Final" />
+          <element id="library" level="project" name="Maven: com.fasterxml:classmate:1.5.1" />
+          <element id="library" level="project" name="Maven: javax.activation:javax.activation-api:1.2.0" />
+          <element id="library" level="project" name="Maven: org.hibernate.common:hibernate-commons-annotations:5.1.2.Final" />
+          <element id="library" level="project" name="Maven: javax.xml.bind:jaxb-api:2.3.1" />
+          <element id="library" level="project" name="Maven: org.glassfish.jaxb:jaxb-runtime:2.3.1" />
+          <element id="library" level="project" name="Maven: org.glassfish.jaxb:txw2:2.3.1" />
+          <element id="library" level="project" name="Maven: com.sun.istack:istack-commons-runtime:3.0.7" />
+          <element id="library" level="project" name="Maven: org.jvnet.staxex:stax-ex:1.8" />
+          <element id="library" level="project" name="Maven: com.sun.xml.fastinfoset:FastInfoset:1.2.15" />
+          <element id="library" level="project" name="Maven: org.jboss.weld.servlet:weld-servlet:1.1.0.Final" />
+          <element id="library" level="project" name="Maven: commons-beanutils:commons-beanutils:1.9.3" />
+          <element id="library" level="project" name="Maven: commons-logging:commons-logging:1.2" />
+          <element id="library" level="project" name="Maven: commons-collections:commons-collections:3.2.2" />
+          <element id="library" level="project" name="Maven: org.apache.poi:poi:4.1.2" />
+          <element id="library" level="project" name="Maven: commons-codec:commons-codec:1.13" />
+          <element id="library" level="project" name="Maven: org.apache.commons:commons-collections4:4.4" />
+          <element id="library" level="project" name="Maven: org.apache.commons:commons-math3:3.6.1" />
+          <element id="library" level="project" name="Maven: com.zaxxer:SparseBitSet:1.2" />
+          <element id="library" level="project" name="Maven: org.apache.poi:poi-ooxml:4.1.2" />
+          <element id="library" level="project" name="Maven: org.apache.poi:poi-ooxml-schemas:4.1.2" />
+          <element id="library" level="project" name="Maven: org.apache.xmlbeans:xmlbeans:3.1.0" />
+          <element id="library" level="project" name="Maven: org.apache.commons:commons-compress:1.19" />
+          <element id="library" level="project" name="Maven: com.github.virtuald:curvesapi:1.06" />
+          <element id="library" level="project" name="Maven: commons-lang:commons-lang:2.6" />
+          <element id="library" level="project" name="Maven: com.sun.mail:javax.mail:1.6.2" />
+          <element id="library" level="project" name="Maven: javax.activation:activation:1.1" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.9.8" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.9.0" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-core:2.9.8" />
+          <element id="library" level="project" name="Maven: javax.servlet:jsp-api:2.0" />
+          <element id="library" level="project" name="Maven: javax.servlet:servlet-api:2.4" />
+          <element id="library" level="project" name="Maven: javax.servlet:javax.servlet-api:3.1.0" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/Final_Project_Intellij-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="Final_Project_Intellij/web/Web" />
+    </root>
+  </artifact>
+</component>

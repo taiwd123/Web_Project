@@ -1,0 +1,60 @@
+.active{
+    display: block !important;
+}
+
+.rightbar-overlay {
+    background-color: rgba(0,0,0,0.5); 
+    opacity: 1; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+} 
+
+.course-upload {
+    color: #6c757d; 
+    background-color: #FFF; 
+    border-radius: 4px; 
+    padding: 16px; 
+    position: fixed; 
+    margin: auto; 
+    width: 320px; 
+    height: 120px; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    bottom: 0;
+}
+
+.button-wrap  {
+    display: flex; 
+    justify-content: space-between; 
+    padding-top: 6px;
+}
+
+#cancel-course {
+    margin-right: 8px;
+    min-width: 120px;
+}
+
+.btn:focus  {
+    outline: none !important;
+    border: none !important;
+}
+
+.btn:active {
+    outline: none !important;
+    border: none !important;
+}
+
+.btn:focus:not(.focus-visible) {
+    outline: none;
+}
+   
+  /* Optional: Customize .focus-visible */
+.btn.focus-visible {
+    outline-color: lightgreen;
+}
+
+#course {
+    display: none
+}

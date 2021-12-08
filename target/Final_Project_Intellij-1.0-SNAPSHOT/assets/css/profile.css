@@ -1,0 +1,33 @@
+.upload-image {
+    position: relative;
+    overflow: hidden;
+  }
+.input-image {
+  position: absolute;
+  font-size: 50px;
+  opacity: 0;
+  right: 0;
+  top: 0;
+}
+
+.card-profile {
+  margin-bottom: 12px ;
+  height: 100% !important;
+}
+
+.card-body-img {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+@media (max-width: 980px) {
+  .card {
+    margin: 12px;
+    height: auto;
+  }
+}
